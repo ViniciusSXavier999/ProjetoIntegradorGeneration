@@ -38,8 +38,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `db_6educa`.`tb_tema` (
   `id` BIGINT NOT NULL AUTO_INCREMENT,
-  `grupo` VARCHAR(255) NOT NULL,
-  `categoria` VARCHAR(255) NOT NULL,
+  descricao VARCHAR(255)
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
